@@ -1,0 +1,17 @@
+# FGTS — Lending Glossary
+
+| Nubank term | Meaning | Example of use Nu | Terms users use | Comments |
+|---|---|---|---|---|
+| Antecipação do Saque-Aniversário FGTS | O nome do nosso produto de empréstimo. O cliente pode antecipar o recebimento de valores do seu FGTS através de um produto de crédito. Descontado anualmente direto do FGTS. | O que é a Antecipação do Saque-Aniversário FGTS | | Todas as letras iniciais devem estar em maiúscula |
+| Antecipação FGTS | Sinônimo do nome do produto de empréstimo = Antecipação do Saque-Aniversário FGTS. Utilizamos quando há pouco espaço para o texto na tela, ex: Product Shelf | Antecipação FGTS - Simular | | |
+| Aplicativo do FGTS / app do FGTS | O app que pertence à Caixa Econômica Federal e em que é possível conferir extrato do FGTS, alterar entre modalidade saque-rescisão e saque-aniversário, autorizar as instituições bancárias a consultar saldo, e outros. | Já finalizou os passos abaixo no aplicativo do FGTS? | | |
+| Autorizar a Nu Financeira / Autorizar a Nu Pagamentos | O ato de permitir que Nubank consulte o saldo do FGTS da pessoa usuária. A autorização é válida por 90 dias, por isso é preciso renová-la após esse período ao fazer simulação do empréstimo. | Autorize as instituições Nu Financeira e Nu Pagamentos | burocracia / papelada | |
+| Caixa | Caixa Econômica Federal. Intermediária do produto Antecipação do Saque-Aniversário. | Entre em contato com a Caixa para verificar dados do seu cadastro e lançamentos no seu FGTS. | | |
+| Estimativa de valor disponível | Resultado da "calculadora offline" que disponibilizamos antes da autorização (antes do usuário autorizar o Nu a consultar seu saldo do FGTS). Uma primeira simulação. | Estimativa de valor disponível | | |
+| FGTS | Fundo de Garantia do Tempo de Serviço | Você irá receber um novo depósito no seu FGTS no próximo dia 20. Volte aqui e tente novamente. | | |
+| Multa rescisória | Um benefício do FGTS que a pessoa que for demitida pode receber quando há rescisão do contrato de trabalho sem justa causa ou por acordo. Geralmente, a multa corresponde a 40% do valor total no FGTS. | | | |
+| Saldo do FGTS / Saldo no FGTS | Saldo no Fundo de Garantia do Tempo de Serviço | As parcelas são anuais, descontadas do saldo no FGTS | | |
+| Saque-Aniversário | A modalidade onde | Tenha acesso a até 12 parcelas do Saque-Aniversário de uma só vez. | | |
+| Saque-Aniversário / Sistemática do Saque-Aniversário | Modalidade opcional onde anualmente, no mês de aniversário, a pessoa com contrato CLT/formal pode sacar parte do seu saldo de FGTS. Caso ela seja demitida, poderá sacar apenas o valor referente à multa rescisória e não poderá sacar o valor integral da conta. | Na tela inicial, escolha "Sistemática de saque do seu FGTS". Depois, toque em "Optar pelo Saque-Aniversário". | | Deveria estar com letra maiúscula na palavra rescisão (hoje no app está com minúscula) |
+| Saque-rescisão | Modalidade na qual uma pessoa com contrato CLT/formal, quando demitida sem justa causa, tem direito ao saque integral da conta do FGTS, incluindo a multa rescisória, quando devida. A modalidade padrão em que o trabalhador ingressa no FGTS. | Habilite a opção Saque-Aniversário no app do FGTS. A opção de saque-rescisão ficará desabilitada por pelo menos 24 meses. | | |
+| Simular / Simulação | Ação de estimar valor disponível para empréstimo, depois de feita a autorização da Nu Financeira (ou demais CNPJs do Nu) pelo usuário. | Resumo da simulação de antecipação de R$ 8.347,91 | | |
