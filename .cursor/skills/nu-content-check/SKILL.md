@@ -100,7 +100,7 @@ Evaluate the copy against each category below. For each item, mark:
 
 **Always review piece by piece.** When the user sends multiple pieces of content (e.g. push, email, app screen, highlight), present a **separate, complete content check for each piece** before moving to the next. Each piece starts when the user indicates a new "Comms type", screen, or component.
 
-This allows the designer to review and adjust in real time, one piece at a time.
+This allows the person reviewing to adjust in real time, one piece at a time.
 
 Output format **per piece**:
 
