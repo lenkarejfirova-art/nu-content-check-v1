@@ -41,12 +41,10 @@ Type one of these (or similar):
 
 ### Step 3 — Provide your content
 
-Paste the copy you want to review. You can send:
+You have three ways to send content for review:
 
-- A single screen (title, body, CTA, etc.)
-- Multiple pieces at once (push, email, app screen, etc.) — just label each one with its **Comms type**
-
-**Example format:**
+**Option A — Paste the text**
+Copy the texts from your screen and paste them in the chat. Label each piece with its **Comms type** when sending multiple pieces.
 
 ```
 Comms type: Push
@@ -59,6 +57,17 @@ Header: Seu consignado do seu jeito
 Body: Oi, {{preferred_name}}. O seu consignado...
 CTA: Simule agora
 ```
+
+**Option B — Send a Figma link**
+Paste the Figma frame URL directly in the chat. The agent will read the design, identify the components (title, subtitle, CTA, body, etc.), extract the text, and run the content check.
+
+```
+faça o content check desta tela:
+https://www.figma.com/design/XXXXX/file-name?node-id=123-456
+```
+
+**Option C — Send a screenshot**
+Drag and drop or paste a screenshot of the screen. The agent will read the visible text and identify the component types to apply the correct rules.
 
 ### Step 4 — Tell the agent which product it's for
 
@@ -130,9 +139,10 @@ nu-content-check-v1/
 
 ## Tips
 
+- **Figma links are the fastest way** to review screens — the agent reads the frame, identifies components, and checks everything automatically.
 - **Send the source document link** when asking for a review — the agent will include it in the log for reference.
-- **Label each piece** with "Comms type" when sending multiple pieces — this helps the agent separate the checks.
-- **Be specific about the component** (title, button, subtitle, error message, etc.) — punctuation rules differ by component type.
+- **Label each piece** with "Comms type" when sending multiple pieces (pasted text) — this helps the agent separate the checks.
+- **Be specific about the component** (title, button, subtitle, error message, etc.) — punctuation rules differ by component type. When using Figma links or screenshots, the agent identifies components automatically.
 - **You can ask follow-up questions** after the review, like "can you suggest a rewrite for the app screen?" or "what would be a better CTA?"
 
 ---

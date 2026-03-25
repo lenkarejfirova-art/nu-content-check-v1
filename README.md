@@ -2,7 +2,7 @@
 
 **O que é:** Um revisor de conteúdo automatizado que checa copies em português contra as guidelines oficiais do Nubank.
 
-**Como funciona:** O designer cola o texto da tela no Cursor e pede "faça o content check". A ferramenta lê todas as guidelines (tom de voz, padrões, acessibilidade, glossário de lending) e retorna um checklist peça por peça, com sugestões de correção.
+**Como funciona:** O designer pede "faça o content check" no Cursor e envia o conteúdo de uma das seguintes formas: colando o texto direto, mandando um link de Figma, ou enviando um screenshot da tela. A ferramenta lê todas as guidelines (tom de voz, padrões, acessibilidade, glossário de lending) e retorna um checklist peça por peça, com sugestões de correção.
 
 **Por que existe:** Peer reviews de conteúdo são valiosos, mas dependem de agenda e não escalam. Esta ferramenta garante que toda copy passe por uma revisão completa e consistente — a qualquer hora, por qualquer pessoa.
 
