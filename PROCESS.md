@@ -26,8 +26,18 @@ The same process (Steps 1–2) will be applied to every guideline document we co
   > **Disclaimer:** The Lending Glossary is sourced from a Google Sheets document. Whenever that sheet is updated, the corresponding `.md` file must be manually updated as well (by adding a new SVG file). These updates are infrequent.
 - [ ] Legal / Product Ops content check _(under review — may become `legal-content-check.md`)_
 
-### Step 4 — Consolidate into the style-guide folder
-Once all guides are collected in Markdown, they are placed in the `style-guide/` folder. These become the reference base for all future content checks.
+### Step 4 — Consolidate into the content-guidelines folder
+Once all guides are collected in Markdown, they are placed in the `content-guidelines/` folder. These become the reference base for all future content checks.
+
+### Step 5 — Create the Content Check skill
+A Cursor skill (`nu-content-check`) was created to automate content reviews against the guidelines. The skill reads all guideline files and the relevant lending glossary, then outputs a structured checklist per piece of content.
+
+### Step 6 — Test the skill with real content
+The skill was tested with real go-to-market communications (Public Payroll — Refinanciamento), including: Push, App Screen, Announcement Screen, Email (Marinha & Aeronáutica), Email (Exército), and Highlight. The test validated the skill's ability to catch issues across tone of voice, content patterns, accessibility, UX writing best practices, and glossary compliance. Results are returned **separated per comms type** for easier review and real-time adjustments.
+
+### Pending improvements
+
+- [ ] **Consistency check guide** — A guide for checking consistency across comms is still missing (e.g. step-by-step lists: should they use numbered lists, same verb tense, same structure?). This will be elaborated and added as a new guideline file to strengthen the content check.
 
 ---
 
@@ -41,12 +51,16 @@ nu-content-check-v1/
 │   ├── nuds-content-guidelines.md     # Nubank Content Guidelines (tone of voice, patterns)
 │   ├── accessible-content.md          # Accessibility guidelines (WCAG, readability, visual cues, imagery)
 │   └── content-heuristics.md          # UX Writing Best Practices Checklist
-└── lending-glossary/                  # Lending product glossaries (one .md per product)
-    ├── private-payroll.md
-    ├── fgts.md
-    ├── pj-personal-loans.md
-    ├── pf-personal-loans.md
-    └── public-payroll.md
+├── lending-glossary/                  # Lending product glossaries (one .md per product)
+│   ├── private-payroll.md
+│   ├── fgts.md
+│   ├── pj-personal-loans.md
+│   ├── pf-personal-loans.md
+│   └── public-payroll.md
+├── review-logs/                       # Review documentation (one .md per content check session)
+│   └── 2026-03-24-public-payroll-refinanciamento-gtm.md
+└── .cursor/skills/nu-content-check/   # Content check skill (shared via repo)
+    └── SKILL.md
 ```
 
 ---
@@ -61,3 +75,5 @@ nu-content-check-v1/
 | 2026-03-24 | Added accessible-content.md to content-guidelines |
 | 2026-03-24 | Extracted content-heuristics.md from nuds-content-guidelines |
 | 2026-03-24 | Added lending-glossary with 5 products: private-payroll, fgts, pj-personal-loans, pf-personal-loans, public-payroll |
+| 2026-03-24 | Created nu-content-check skill (personal) |
+| 2026-03-24 | First test: Public Payroll Refinanciamento go-to-market comms (push, app screen, announcement, emails, highlight) |
